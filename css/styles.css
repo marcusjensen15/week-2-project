@@ -1,0 +1,33 @@
+body {
+
+  background-color: tan;
+}
+
+.jumbotron {
+  margin-top: 50px;
+
+}
+
+#result {
+
+  display:none;
+  text-align: center;
+  font-family: cursive;
+  font-size: 40px;
+  color: white;
+}
+
+.button{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.main-header {
+  text-align:center
+}
+
+.centerquestion {
+  margin-top: 40px;
+  font-style: italic;
+  text-align: center;
+}

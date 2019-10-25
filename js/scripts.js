@@ -36,23 +36,23 @@ $(document).ready(function() {
 
   if (total <= 25){
 
-    textResult = "you should try out Javascript!";
+    textResult = "You should try out Javascript!";
     console.log(textResult);
   }else if(total > 25 && total <= 50){
-    textResult = "check out Go!";
+    textResult = "Check out Go!";
     console.log(textResult);
   }else if(total > 50 && total <= 70){
     textResult="Python is the one for you!";
     console.log(textResult);
   }else if(total > 71 && total <= 80){
-    textResult="try out ruby!";
+    textResult="Try out ruby!";
     console.log(textResult);
   }else{
     textResult="Have a go at C#!";
     console.log(textResult);
   }
 
-  $("#result").text(textResult);
+  $("#result").text(textResult).show();
 
   event.preventDefault();
   });
