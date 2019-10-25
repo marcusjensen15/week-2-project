@@ -13,9 +13,12 @@ $(document).ready(function() {
     //   else {
     //     value1 = 0;
     //   }
-    var value1 = parseInt($("#meat").val());
+    var value1 = parseInt($("#question1").val());
+    var value2 = parseInt($("#question2").val());
 
-      console.log(value1);
+    console.log(value1);
+
+    console.log(value2);
 
 
 // input:radio[name=operator]:checked"
