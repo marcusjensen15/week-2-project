@@ -17,6 +17,15 @@ body {
   color: white;
   margin-bottom: 40px
 }
+#nameResult {
+
+  display:none;
+  text-align: center;
+  font-family: cursive;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 40px
+}
 
 .button{
   text-align: center;

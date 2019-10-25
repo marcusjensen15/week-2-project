@@ -86,7 +86,7 @@ $(document).ready(function() {
   }
 
 
-  console.log(nameDisplay());
+  nameDisplay();
 
   $("#result").text(textResult).show();
 
@@ -101,9 +101,9 @@ function nameDisplay(){
   name = name.reverse();
   name = name.toString();
   name = name.replace(/,/g,"");
-  
+  name = name.charAt(0).toUpperCase() + name.slice(1);
+  $("#nameResult").text("Your name backwards is "+name +"." +" You should feel really good about that!").show();
 
-  return name;
 
 }
 
