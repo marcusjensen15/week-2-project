@@ -146,4 +146,4 @@ function nameDisplay(){
 // Convert back to string
 // Present name with silly message
 
-//above complete
+//above complete. Looking into next weeks lesson to see if anything else I can incorporate
