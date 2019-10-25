@@ -14,7 +14,7 @@ _This application asks the user a 6 questions, and suggests a Programming Langua
 * _Clone Repo_
 * _Open in Atom_
 * _Open index.html in browser (Chrome)_
-* _format_
+
 
 
 ## Known Bugs
