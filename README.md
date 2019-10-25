@@ -2,7 +2,7 @@
 
 #### _Programming Language Quiz_, 10/25/2019_
 
-#### By _**{List of contributors}**_
+#### By _**Marcus Jensen**_
 
 ## Description
 
