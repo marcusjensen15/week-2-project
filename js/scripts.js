@@ -101,7 +101,7 @@ function nameDisplay(){
   name = name.reverse();
   name = name.toString();
   name = name.replace(/,/g,"");
-  name = name.charAt(0).toUpperCase() + name.slice(1);
+  name = name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
   $("#nameResult").text("Your name backwards is "+name +"." +" You should feel really good about that!").show();
 
 
@@ -145,3 +145,5 @@ function nameDisplay(){
 // Use array method to flip string backwards
 // Convert back to string
 // Present name with silly message
+
+//above complete
