@@ -1,12 +1,15 @@
+$(document).ready(function() {
+  //$("form#sideForm").submit(function(event) {
+
+    console.log('beef');
 
 
 
 
 
-
-
-
-
+  //event.preventDefault();
+  //});
+});
 
 
 
