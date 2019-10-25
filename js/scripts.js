@@ -85,6 +85,7 @@ $(document).ready(function() {
     console.log(textResult);
   }
 
+
   console.log(nameDisplay());
 
   $("#result").text(textResult).show();
@@ -95,7 +96,12 @@ $(document).ready(function() {
 });
 
 function nameDisplay(){
-  var name = $("name").val();
+  var name = $("#name").val();
+  name = name.split("");
+  name = name.reverse();
+  name = name.toString();
+  name = name.replace(/,/g,"");
+  
 
   return name;
 
