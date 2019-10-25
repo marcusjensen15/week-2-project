@@ -1,44 +1,48 @@
-$(document).ready(function() {
-  $("form#quiz").submit(function(event) {
+// $(document).ready(function() {
+//   $("form#quiz").submit(function(event) {
+//
+//
+//     var value1 = parseInt($("#question1").val());
+//     var value2 = parseInt($("#question2").val());
+//     var value3 = parseInt($("#question3").val());
+//     var value4 = parseInt($("#question4").val());
+//     var value5 = parseInt($("#question5").val());
+//     var total = value1 + value2 + value3 + value4 + value5;
+//     var textResult;
+//
+//
+//
+//     console.log(total);
+//
+//
+//   if (total <= 25){
+//
+//     textResult = "You should try out Javascript!";
+//     console.log(textResult);
+//   }else if(total > 25 && total <= 50){
+//     textResult = "Check out Go!";
+//     console.log(textResult);
+//   }else if(total > 50 && total <= 70){
+//     textResult="Python is the one for you!";
+//     console.log(textResult);
+//   }else if(total > 71 && total <= 80){
+//     textResult="Try out ruby!";
+//     console.log(textResult);
+//   }else{
+//     textResult="Have a go at C#!";
+//     console.log(textResult);
+//   }
+//
+//   $("#result").text(textResult).show();
+//
+//   event.preventDefault();
+//   });
+// });
 
 
-    var value1 = parseInt($("#question1").val());
-    var value2 = parseInt($("#question2").val());
-    var value3 = parseInt($("#question3").val());
-    var value4 = parseInt($("#question4").val());
-    var value5 = parseInt($("#question5").val());
-    var total = value1 + value2 + value3 + value4 + value5;
-    var textResult;
+// EVERYTHING ABOVE THIS LINE IS FUNCTIONAL CODE MEEITING ALL REQUIREMENTS
 
-
-
-    console.log(total);
-
-
-  if (total <= 25){
-
-    textResult = "You should try out Javascript!";
-    console.log(textResult);
-  }else if(total > 25 && total <= 50){
-    textResult = "Check out Go!";
-    console.log(textResult);
-  }else if(total > 50 && total <= 70){
-    textResult="Python is the one for you!";
-    console.log(textResult);
-  }else if(total > 71 && total <= 80){
-    textResult="Try out ruby!";
-    console.log(textResult);
-  }else{
-    textResult="Have a go at C#!";
-    console.log(textResult);
-  }
-
-  $("#result").text(textResult).show();
-
-  event.preventDefault();
-  });
-});
-
+// Begining of experiemental section:
 
 
 
