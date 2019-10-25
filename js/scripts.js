@@ -15,10 +15,20 @@ $(document).ready(function() {
     //   }
     var value1 = parseInt($("#question1").val());
     var value2 = parseInt($("#question2").val());
+    var value3 = parseInt($("#question3").val());
+    var value4 = parseInt($("#question4").val());
+    var value5 = parseInt($("#question5").val());
+    var total = value1 + value2 + value3 + value4 + value5;
 
-    console.log(value1);
-    console.log(value2);
-    console.log(value1 +value2);
+
+
+    console.log(total);
+    // console.log(value1);
+    // console.log(value2);
+    // console.log(value3);
+    // console.log(value4);
+    // console.log(value5);
+    // console.log(value1 +value2 + value3 + value4 + value5);
 
 
 // input:radio[name=operator]:checked"
