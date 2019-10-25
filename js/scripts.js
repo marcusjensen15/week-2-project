@@ -55,3 +55,5 @@ $(document).ready(function() {
 
 //Create chain of if-else statements seeing if the box is checked for each option. If an option is selected, assign value, if else assign zero
 //need to find out what the 'checked' radio button is evaluating as
+
+//add framework for doing the same thing with arrays, functions and loops
