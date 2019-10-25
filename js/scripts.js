@@ -13,7 +13,7 @@ $(document).ready(function() {
     //   else {
     //     value1 = 0;
     //   }
-    var value1 = $("input:radio[id=question1]:checked");
+    var value1 = parseInt($("#meat").val());
 
       console.log(value1);
 

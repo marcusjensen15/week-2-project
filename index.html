@@ -14,12 +14,14 @@
         <h1>Which Language is best for you?</h1>
           <h2>Take the quiz:</h2>
           <form id="quiz">
-            <p>Which best describes you?</p>
-              <input type="radio" id="question1"name="question1" value="5">I like to dance <br>
-              <input type="radio" id="question2" name="question1" value="20">I like to go on hikes <br>
-              <input type="radio" id="question3" name="question1" value="50">I like to watch movies <br>
-
-
+            <div class="form-group">
+              <label for="meat">Which of the options below best describes you?</label>
+              <select class="form-control" name="meat" id="meat">
+                <option value="5">I love to dance</option>
+                <option value="10">I like to swim</option>
+                <option value="20">I like to eat</option>
+              </select>
+            </div>
 
             <button type="submit" name="button">Submit Your Answers!</button>
           </form>
