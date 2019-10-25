@@ -33,9 +33,23 @@ $(document).ready(function() {
 
 // input:radio[name=operator]:checked"
 
+  if (total <= 25){
+
+    console.log("you should try out Javascript!");
+  }else if(total > 25 && total <= 50){
+    console.log("check out Go!");
+  }else if(total > 50 && total <= 70){
+    console.log("Python is the one for you!");
+  }else if(total > 71 && total <= 80){
+    console.log("try out ruby!");
+  }else{
+    console.log("Have a go at C#!");
+  }
+
   event.preventDefault();
   });
 });
+
 
 
 
