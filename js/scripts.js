@@ -7,12 +7,13 @@ $(document).ready(function() {
     // var questionOneTotal = parseInt($("input:radio[id=question1]:checked").val()) + parseInt($("input:radio[id=question2]:checked").val());
     // console.log(questionOneTotal);
 
-    if ("input:radio[id=question1]:checked"){
-      var value1 = 5;
-      }
-      else {
-        value1 = 0;
-      }
+    // if ("input:radio[id=question1]:checked" = ON){
+    //   var value1 = 5;
+    //   }
+    //   else {
+    //     value1 = 0;
+    //   }
+    var value1 = $("input:radio[id=question1]:checked");
 
       console.log(value1);
 
@@ -37,3 +38,4 @@ $(document).ready(function() {
 // -Show result of score based on user input.
 
 //Create chain of if-else statements seeing if the box is checked for each option. If an option is selected, assign value, if else assign zero
+//need to find out what the 'checked' radio button is evaluating as
