@@ -156,4 +156,4 @@ function hide(){
 //above complete. Looking into next weeks lesson to see if anything else I can incorporate
 //will create button to hide result and play again!
 
-//must begin markdown file
+//markdown file complete, staging for final commit
