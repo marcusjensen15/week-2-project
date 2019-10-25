@@ -85,12 +85,22 @@ $(document).ready(function() {
     console.log(textResult);
   }
 
+  console.log(nameDisplay());
+
   $("#result").text(textResult).show();
 
   event.preventDefault();
   });
 
 });
+
+function nameDisplay(){
+  var name = $("name").val();
+
+  return name;
+
+}
+
 
 
 
