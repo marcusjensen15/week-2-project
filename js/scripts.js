@@ -19,6 +19,7 @@ $(document).ready(function() {
     var value4 = parseInt($("#question4").val());
     var value5 = parseInt($("#question5").val());
     var total = value1 + value2 + value3 + value4 + value5;
+    var textResult;
 
 
 
@@ -35,16 +36,23 @@ $(document).ready(function() {
 
   if (total <= 25){
 
-    console.log("you should try out Javascript!");
+    textResult = "you should try out Javascript!";
+    console.log(textResult);
   }else if(total > 25 && total <= 50){
-    console.log("check out Go!");
+    textResult = "check out Go!";
+    console.log(textResult);
   }else if(total > 50 && total <= 70){
-    console.log("Python is the one for you!");
+    textResult="Python is the one for you!";
+    console.log(textResult);
   }else if(total > 71 && total <= 80){
-    console.log("try out ruby!");
+    textResult="try out ruby!";
+    console.log(textResult);
   }else{
-    console.log("Have a go at C#!");
+    textResult="Have a go at C#!";
+    console.log(textResult);
   }
+
+  $("#result").text(textResult);
 
   event.preventDefault();
   });
