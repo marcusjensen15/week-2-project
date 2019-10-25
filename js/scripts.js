@@ -1,18 +1,7 @@
 $(document).ready(function() {
   $("form#quiz").submit(function(event) {
 
-    // var questionOneTotal = parseInt($("input#question1").val()) + parseInt($("input#question2").val()) + parseInt($("input#question3").val());
-    // console.log(questionOneTotal);
 
-    // var questionOneTotal = parseInt($("input:radio[id=question1]:checked").val()) + parseInt($("input:radio[id=question2]:checked").val());
-    // console.log(questionOneTotal);
-
-    // if ("input:radio[id=question1]:checked" = ON){
-    //   var value1 = 5;
-    //   }
-    //   else {
-    //     value1 = 0;
-    //   }
     var value1 = parseInt($("#question1").val());
     var value2 = parseInt($("#question2").val());
     var value3 = parseInt($("#question3").val());
@@ -24,15 +13,7 @@ $(document).ready(function() {
 
 
     console.log(total);
-    // console.log(value1);
-    // console.log(value2);
-    // console.log(value3);
-    // console.log(value4);
-    // console.log(value5);
-    // console.log(value1 +value2 + value3 + value4 + value5);
 
-
-// input:radio[name=operator]:checked"
 
   if (total <= 25){
 
