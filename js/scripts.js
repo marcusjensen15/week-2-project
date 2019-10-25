@@ -86,6 +86,9 @@ $(document).ready(function() {
   }
 
 
+
+
+
   nameDisplay();
 
   $("#result").text(textResult).show();
@@ -107,8 +110,12 @@ function nameDisplay(){
 
 }
 
+function hide(){
+  $("#nameResult").text("Your name backwards is "+name +"." +" You should feel really good about that!").toggle();
 
+  $("#result").toggle();
 
+}
 
 
 
