@@ -1,14 +1,15 @@
 $(document).ready(function() {
-  //$("form#sideForm").submit(function(event) {
+  $("form#quiz").submit(function(event) {
 
-    console.log('beef');
-
-
-
+    var questionOneTotal = parseInt($("input#question1").val()) + parseInt($("input#question2").val()) + parseInt($("input#question3").val());
+    console.log(questionOneTotal);
 
 
-  //event.preventDefault();
-  //});
+
+
+
+  event.preventDefault();
+  });
 });
 
 
