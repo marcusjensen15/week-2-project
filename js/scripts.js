@@ -120,3 +120,12 @@ $(document).ready(function() {
 // need to find out what the 'checked' radio button is evaluating as
 //
 // add framework for doing the same thing with arrays, functions and loops
+
+
+//write a function that will take the persons name, spell it backwards, and present it to them
+
+// In HTML, create an area where the user can input their name.
+// Take name as string, convert to array.
+// Use array method to flip string backwards
+// Convert back to string
+// Present name with silly message
